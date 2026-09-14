@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الاحترافي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">موقعي</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#about">عن الشركة</a></li>
+                    <li><a href="#services">الخدمات</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h2>مرحباً بك في موقعنا الإلكتروني</h2>
+            <p>نقدم أفضل الحلول الرقمية لتطوير أعمالك ونمو مشروعك بنجاح.</p>
+            <a href="#contact" class="btn">تواصل معنا الآن</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">خدماتنا</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">💻</div>
+                    <h3>تطوير المواقع</h3>
+                    <p>تصميم وتطوير مواقع ويب حديثة وسريعة متناسبة مع كافة الأجهزة.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">📱</div>
+                    <h3>تطبيقات الجوال</h3>
+                    <p>بناء تطبيقات هاتف متميزة وسهلة الاستخدام لأنظمة Android و iOS.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🚀</div>
+                    <h3>التسويق الرقمي</h3>
+                    <p>خطط تسويقية معتمدة لزيادة وصول مشروعك وتحقيق أفضل النتائج.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">اتصل بنا</h2>
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" placeholder="الاسم الكامل" required>
+                <input type="email" id="email" placeholder="البريد الإلكتروني" required>
+                <textarea id="message" rows="5" placeholder="رسالتك..." required></textarea>
+                <button type="submit" class="btn">إرسال الرسالة</button>
+            </form>
+            <div id="formResponse" class="form-response"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 جميع الحقوق محفوظة - موقعي الاحترافي.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
